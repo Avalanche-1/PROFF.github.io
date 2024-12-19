@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ASEDA BEN SALON - Professional Hair and Beauty Services">
+    <meta name="keywords" content="Salon, Beauty, Haircare, Services, ASEDA BEN">
+    <meta name="author" content="ASEDA BEN SALON">
+    <title>ASEDA BEN SALON</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">ASEDA BEN SALON</div>
+            <ul class="nav-links">
+                <li><a href="index.html" onclick="showPage('home')">Home</a></li>
+                <li><a href="about.html"onclick="showPage('about')">About Us</a></li>
+                <li><a href="services.html"onclick="showPage('services')">Services/Products</a></li>
+                <li><a href="reviews.html"onclick="showPage('reviews')">Reviews</a></li>
+                <li><a href="contact.html"onclick="showPage('contact')">Contact Us</a></li>
+            </ul>
+            <div class="logo">
+                <img src="images/Aseda.webp" alt="ASEDA BEN SALON Logo">
+            </div>
+        </nav>
+    </header>
+
+    <!-- Homepage Content -->
+    <section class="hero" style="background: url('images/cottonbro.jpg') no-repeat center center/cover; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.7);">
+        <h1>Welcome to ASEDA BEN SALON</h1>
+        <p>Your ultimate destination for professional hair and beauty services.</p>
+        <a href="services.html" class="cta-button">Explore Our Services</a>
+    </section>
+
+    <!-- About Us Page -->
+    <section id="about">
+        <h2 style="text-align: center; margin-bottom: 1rem; font-size: 2rem; color: #333;">About Us</h2>
+        <p style="text-align:center;">Welcome to Aseda Ben Hair Salon, where excellent customer service is our top priority.<br>
+             Our team of talented and educated stylists and technicians are committed to providing exceptional hair services using state-of-the-art equipment.<br>
+              Established in 2007 and located in Beauty Lane, Accra, our salon has become more than just a place for hair care; <br>
+              it’s a warm and welcoming experience that will transform the way you look after your hair.<br>
+               With a newly remodeled space in 2024, featuring modern amenities, we strive to offer you the best overall experience.<br>
+                Let our innovative hair designers, stylists, and colorists create a new look for you.<br>We can’t wait to serve you!
+
+            .</p>
+    </section>
+
+    <!-- Services/Products Page -->
+    <section id="services">
+        <h2>Our Services and Products</h2>
+        <div class="services-container" style="display: flex; gap: 1rem; justify-content: center;">
+            <div class="service-item" style="background: url('images/enginakyt.jpg') no-repeat center center/cover; color: #fff; padding: 3rem; border-radius: 10px; flex: 1; text-align: center; height: 300px; border: 5px solid rgba(0, 0, 0, 0.2); box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);">
+                <h3>Hair Styling</h3>
+                <p>From elegant updos to trendy cuts, we specialize in creating looks that suit you perfectly.</p>
+            </div>
+            <div class="service-item" style="background: url('images/skincare.jpg') no-repeat center center/cover; color: #fff; padding: 3rem; border-radius: 10px; flex: 1; text-align: center; height: 300px; border: 5px solid rgba(0, 0, 0, 0.2); box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);">
+                <h3>Beauty Treatments</h3>
+                <p>Enjoy our range of beauty treatments, including facials, waxing, and makeup services.</p>
+            </div>
+            <div class="service-item" style="background: url('images/pexels-alesiakozik-7795767.jpg') no-repeat center center/cover; color: #fff; padding: 3rem; border-radius: 10px; flex: 1; text-align: center; height: 300px; border: 5px solid rgba(0, 0, 0, 0.2); box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);">
+                <h3>Products</h3>
+                <p>We offer a selection of premium hair and skincare products to help you maintain your style at home.</p>
+            </div>
+        </div>
+    </section>
+     <!-- Testimonials Page -->
+<section id="Reviews" style="padding: 2rem;">
+    <h2 style="text-align: center; margin-bottom: 1rem; font-size: 2rem; color: #333;">What Our Customers Say</h2>
+    <div class="Reviews" style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center;">
+        <div class="Reviews" style="padding: 1.5rem; border: 2px solid rgba(0, 0, 0, 0.2); border-radius: 10px; background-color: #f9f9f9; width: 300px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); text-align: center;">
+            <blockquote>
+                <p>"ASEDA BEN SALON gave me the best haircut I've ever had! Highly recommend their services."</p>
+                <footer style="font-weight: bold; margin-top: 1rem;">- Happy Customer</footer>
+            </blockquote>
+        </div>
+        <div class="Reviews" style="padding: 1.5rem; border: 2px solid rgba(0, 0, 0, 0.2); border-radius: 10px; background-color: #f9f9f9; width: 300px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); text-align: center;">
+            <blockquote>
+                <p>"Amazing service and friendly staff. I always leave feeling fabulous!"</p>
+                <footer style="font-weight: bold; margin-top: 1rem;">- Satisfied Client</footer>
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Us Page -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem;">
+            <div style="flex: 1;">
+                <p>We would love to hear from you! Reach out to us using the details below:</p>
+                <ul>
+                    <li>Address: 123 Beauty Lane, Accra</li>
+                    <li>Phone: 053-602-5071-(5072)</li>
+                    <li>Email: contact@asedabensalon.com</li>
+                </ul>
+            </div>
+            <form id="contact-form" style="flex: 1; display: flex; flex-direction: column; gap: 1rem;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 ASEDA BEN SALON. All Rights Reserved.</p>
+        <ul class="social-links">
+            <li><a href="https://www.facebook.com/Samuel Agyepong/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="https://www.instagram.com/captainfelo7/"target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="https://www.twitter.com/yourusername/"target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+              </a>
+              
+        </ul>
+    </footer>
+</body>
+</html>
